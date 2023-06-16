@@ -57,8 +57,8 @@
 
 ### Results
  - No. of Params: 17,584
- - Best Test Accuracy: 99.05%
- - Best Train Accuracy: 99.50%
+ - Best Test Accuracy: 99.42%
+ - Best Train Accuracy: 99.53%
 
 ### Analysis
  - Number of parametrs increased a bit from 17360 to 17584
