@@ -67,4 +67,22 @@
  - Adding BatchNormalization helped to improve the training accuracy
  - Adding Dropout reduced a bit of overfitting and the gap beween train and test accuracies reduced
 
+## Model4 : Reduce Number of Parameters
+### Target
+ - Reduce the number of parameters from 17k to 8k
+ - Instead of going for kernel number from 16 > 32, approach is to change to 10 > 16
+ - Add Gap layer to collapse image quickly while reducing the number of params
+
+### Results
+ - No. of Params: 8480
+ - Best Test Accuracy: 99.34%
+ - Best Train Accuracy: 99.06%
+
+### Analysis
+ - Number of parametrs reduced from 17584 to 8480
+ - Gap layer helped to reduce the number of params by a great margin
+ - Reducing the number of kernels helped too, still the params count is little higher than expected < 8k params
+ - Accuracies have dipped a bit as a result of reduced number of params
+
+
 
