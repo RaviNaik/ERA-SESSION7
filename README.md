@@ -28,3 +28,24 @@
  - Number of parametrs reduced from ~6 million to 75024
  - Accuracy is still maintained at 99+
  - Model architecure is more structured
+
+## Model3 : Reduce No. of Params
+## ERA Session7 Assignment: Model2
+### Target
+ - Reduce the number of parameters
+ - Maintain decent accuracy from last iteration of Model1
+ - Use a transition block to reduce the channel count
+ - Keep kernel numbers under 32 so as to reduce the number of paramters
+
+### Results
+ - No. of Params: 17,360
+ - Best Test Accuracy: 99.05%
+ - Best Train Accuracy: 99.50%
+
+### Analysis
+ - Number of parametrs reduced from ~75k to 17360
+ - Accuracy is still maintained at 99+
+ - There is a very little dip in both train and test accuracy
+ - Reducing the number of kernels helped to reduce number of parameters
+ - Adding a transition block allowed to reduce the kernel numbers thereby reducing the number of paramters
+
