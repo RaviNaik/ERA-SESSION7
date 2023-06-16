@@ -84,5 +84,21 @@
  - Reducing the number of kernels helped too, still the params count is little higher than expected < 8k params
  - Accuracies have dipped a bit as a result of reduced number of params
 
+## Model5 : Params < 8k & Acc. > 99.4%
+### Target
+ - Reduce the number of parameters to under 8k
+ - Alter the kernel numbers from 10>16 to 10>10 and then 10>16, basically maintain kernel number and then increase, to reduce no of params
+ - Add Rotational image transformations to increase the accuracies
+
+### Results
+ - No. of Params: 7550
+ - Best Test Accuracy: 99.26%
+ - Best Train Accuracy: 98.73%
+
+### Analysis
+ - Number of parametrs reduced from 8480 to 7550
+ - Altering the layers approach helped to reduce the number of parameters
+ - Even after image augmentaton maximum accuracy achieved is 99.26% :( :( :(
+
 
 
