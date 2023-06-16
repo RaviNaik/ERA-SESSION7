@@ -29,8 +29,7 @@
  - Accuracy is still maintained at 99+
  - Model architecure is more structured
 
-## Model3 : Reduce No. of Params
-## ERA Session7 Assignment: Model2
+## Model2 : Reduce No. of Params
 ### Target
  - Reduce the number of parameters
  - Maintain decent accuracy from last iteration of Model1
