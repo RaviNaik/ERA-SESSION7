@@ -48,3 +48,23 @@
  - Reducing the number of kernels helped to reduce number of parameters
  - Adding a transition block allowed to reduce the kernel numbers thereby reducing the number of paramters
 
+## Model3 : Improve Accuracy, Reduce Overfitting
+### Target
+ - Last model was showing scope for learning
+ - So Trying to increase the training accuracy and maintain before attempting to reduce the number of parameters again
+ - Use BatchNormalization to improve train and test accuracies
+ - Add drop out so the gap between train and test accuracies reduce
+
+### Results
+ - No. of Params: 17,584
+ - Best Test Accuracy: 99.05%
+ - Best Train Accuracy: 99.50%
+
+### Analysis
+ - Number of parametrs increased a bit from 17360 to 17584
+ - Gap in accuracy is reduced very much
+ - Consistently accuracy is at 99.4+
+ - Adding BatchNormalization helped to improve the training accuracy
+ - Adding Dropout reduced a bit of overfitting and the gap beween train and test accuracies reduced
+
+
